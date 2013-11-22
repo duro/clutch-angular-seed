@@ -243,7 +243,7 @@ module.exports = function(grunt) {
 
     concurrent: {
       dev: {
-        tasks: ['connect:server', 'watch'],
+        tasks: ['connect:server', 'delta'],
         options: {
           logConcurrentOutput: true
         }
@@ -274,7 +274,7 @@ module.exports = function(grunt) {
   grunt.registerTask('watch', [ 'build:dev', 'delta' ]);
 
   // Temporary dev server
-  grunt.registerTask('server', ['concurrent:dev']);
+  grunt.registerTask('server', ['build:dev', 'concurrent:dev']);
 
   // Production build
   grunt.registerTask('build', [ 'build:release' ]);
