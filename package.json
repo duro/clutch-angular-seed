@@ -1,5 +1,5 @@
 {
-  "name": "app",
+  "name": "clutch-seed",
   "version": "0.0.0",
   "description": "A sane boilerplate for Angular projects",
   "buildDir": "build",
