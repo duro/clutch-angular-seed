@@ -10,7 +10,7 @@ define(function(require, exports, module) {
   require('ui.router');
 
   // Define Application Module
-  var app = module.exports.app = angular.module('<%= appName %>', [
+  var app = module.exports.app = angular.module('app', [
     // Define dependencies
     'templates-app', 'ui.router'
   ])
