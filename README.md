@@ -6,7 +6,7 @@ As an angular seed, it takes a modular approach to structuring your app. It enco
 
 It utilizes RequireJS and the Angular-UI project, UI-Router, to help achieve this modular approach.
 
-## Initial setup (Not using Clutch Framework)
+## Initial setup (Not using Clutch Yeoman Generator)
 
 1. Clone this repo down into your project folder
 
