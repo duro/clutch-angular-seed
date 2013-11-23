@@ -1,8 +1,8 @@
 {
-  "name": "clutch-seed",
-  "version": "0.0.0",
-  "description": "A sane boilerplate for Angular projects",
-  "buildDir": "build",
+  "name": "<%= appName %>",
+  "version": "<%= version %>",
+  "description": "<%= appDescription %>",
+  "buildDir": "<%= buildDir %>",
   "main": "Gruntfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
