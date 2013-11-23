@@ -4,7 +4,7 @@
   "author": "<%= realname %>",
   "description": "<%= appDescription %>",
 
-  "buildDir": "../../public",
+  "buildDir": "<%= buildDir %>",
 
   "devDependencies": {
     "grunt": "~0.4.2",
