@@ -8,6 +8,6 @@ require(['config'], function() {
   ], function($, angular, app) {
     'use strict';
     // Bootstrap this bitch
-    angular.bootstrap(document, ['app']);
+    angular.bootstrap(document, ['<%= appName %>']);
   });
 });
